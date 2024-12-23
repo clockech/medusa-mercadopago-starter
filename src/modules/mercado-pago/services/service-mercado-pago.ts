@@ -1,7 +1,7 @@
 import { MedusaRequest } from "@medusajs/framework";
 import { PaymentStatus } from "@medusajs/framework/types";
 import { MercadoPagoConfig, Payment } from "mercadopago";
-import { MercadopagoOptions, MercadopagoWebhookRequest } from "./types";
+import { MercadopagoOptions, MercadopagoWebhookRequest } from "../utils/types";
 import { Lifetime } from "awilix";
 
 import crypto from "crypto";
