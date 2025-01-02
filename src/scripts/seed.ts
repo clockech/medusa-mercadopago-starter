@@ -19,7 +19,7 @@ import {
   Modules,
   ProductStatus,
 } from "@medusajs/framework/utils";
-
+//comment
 export default async function seedDemoData({ container }: ExecArgs) {
   const logger = container.resolve(ContainerRegistrationKeys.LOGGER);
   const remoteLink = container.resolve(ContainerRegistrationKeys.REMOTE_LINK);
